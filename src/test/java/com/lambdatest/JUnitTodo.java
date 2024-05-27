@@ -94,6 +94,8 @@ public class JUnitTodo {
             driver.quit();
         }
 
+// Making an Zephyr API call to push results to Jira
+
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=KAN"))

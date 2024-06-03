@@ -79,10 +79,29 @@ public class JUnitTodo {
              driver.executeScript("lambda-status=" + status);
             driver.quit();
 
+<<<<<<< HEAD
            PostTestResults postTestResults = new PostTestResults();
            List<String> fileNames = Arrays.asList("TEST-com.lambdatest.JUnitTodo.xml");
            List<String> filePaths = Arrays.asList("target/surefire-reports/TEST-com.lambdatest.JUnitTodo.xml");
            postTestResults.callApi(fileNames, filePaths, "KAN", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczovL3JpdGFtZ2FuZ3VsaWFjLmF0bGFzc2lhbi5uZXQiLCJ1c2VyIjp7ImFjY291bnRJZCI6IjcxMjAyMDo5MjMzOWI4YS02MmQwLTQ3NTAtYTAzMi1hMDFiMWNmNjU2ZTAifX0sImlzcyI6ImNvbS5rYW5vYWgudGVzdC1tYW5hZ2VyIiwic3ViIjoiZDY3NjhlNTYtOWVmZC0zYzM1LWEzNjgtOWI3ZmE5OGIzMTNiIiwiZXhwIjoxNzQ2NjQ5MDU4LCJpYXQiOjE3MTUxMTMwNTh9.E9v7q0xcdEki_sPhMFgqf8xQLXVwHo0bZU_YGFqH47I");
+=======
+// Making an Zephyr API call to push results to Jira
+
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=KAN"))
+                .header("Content-Type", "text/xml")
+                .header("Authorization", "Bearer your_berear_token")
+                .POST(HttpRequest.BodyPublishers.ofFile(Path.of("target/surefire-reports/TEST-com.lambdatest.JUnitTodo.xml")))
+                .build();
+        try {
+            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            System.out.println("Response status code: " + response.statusCode());
+            System.out.println("Response body: " + response.body());
+        } catch (IOException | InterruptedException e) {
+            System.out.println("Error during HTTP request");
+            e.printStackTrace();
+>>>>>>> a8311238f672007831ac60aef30e147a9d7293db
         }
     }
 }

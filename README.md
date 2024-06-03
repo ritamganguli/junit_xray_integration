@@ -1,6 +1,4 @@
-﻿
-
-                                                                                           Xray End To End Integration With Lambdatest
+Xray End To End Integration With Lambdatest
 
 Xray is a popular test management app for Jira that integrates seamlessly with Jira Software, Jira Core, and Jira Service Management. It's primarily used for managing and tracking testing activities within the Jira environment. It supports integration with various test automation frameworks such as Selenium, JUnit, and Cucumber. This allows teams to automate test execution and seamlessly incorporate automated test results into their testing workflows within Jira.
 

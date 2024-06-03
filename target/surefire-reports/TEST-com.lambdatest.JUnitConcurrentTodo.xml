@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.lambdatest.JUnitConcurrentTodo" time="36.95" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.lambdatest.JUnitConcurrentTodo" time="47.399" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ritamg\Downloads\junit-selenium-zephyr-scale-sample-main\junit-selenium-zephyr-scale-sample-main"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ritamg\Downloads\junit-selenium-sample-master\junit-selenium-sample-master"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\ritamg\Downloads\junit-selenium-zephyr-scale-sample-main\junit-selenium-zephyr-scale-sample-main"/>
+    <property name="user.dir" value="C:\Users\ritamg\Downloads\junit-selenium-sample-master\junit-selenium-sample-master"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 11"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.9.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Ruby33-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\gradle-7.2\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\ritamg\AppData\Roaming\Python;C:\Users\ritamg\AppData\Roaming\Python\Scripts;C:\Users\ritamg\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\npm;C:\Ruby33-x64\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Users\ritamg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin;;C:\Users\ritamg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ritamg\AppData\Local\GitHubDesktop\bin;C:\Users\ritamg\AppData\Roaming\Python;C:\Users\ritamg\AppData\Roaming\Python\Scripts;C:\Users\ritamg\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\mitmproxy\bin;C:\Users\ritamg\.dotnet\tools;C:\Program Files (x86)\BrowserStackLocal\;C:\Users\ritamg\AppData\Roaming\npm;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Ruby33-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\gradle-7.2\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Users\ritamg\AppData\Roaming\Python;C:\Users\ritamg\AppData\Roaming\Python\Scripts;C:\Users\ritamg\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\npm;C:\Ruby33-x64\bin;C:\Program Files\nodejs\;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Users\ritamg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin;;C:\Users\ritamg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ritamg\AppData\Local\GitHubDesktop\bin;C:\Users\ritamg\AppData\Roaming\Python;C:\Users\ritamg\AppData\Roaming\Python\Scripts;C:\Users\ritamg\AppData\Roaming\Python\Python312\Scripts;;C:\Program Files\mitmproxy\bin;C:\Users\ritamg\.dotnet\tools;C:\Program Files (x86)\BrowserStackLocal\;C:\Users\ritamg\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.9.6/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P single"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P parallel"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,7 +66,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[0]" time="10.132"/>
-  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[1]" time="12.924"/>
-  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[2]" time="13.894"/>
+  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[0]" time="13.325"/>
+  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[1]" time="14.731"/>
+  <testcase classname="com.lambdatest.JUnitConcurrentTodo" name="testParallel[2]" time="19.343"/>
 </testsuite>

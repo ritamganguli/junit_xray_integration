@@ -56,8 +56,8 @@ Before you can start performing Java automation testing with Selenium, you would
 **Step 1:** Clone the LambdaTest’s JUnit-Selenium-Sample repository and navigate to the code directory as shown below:
 
 ```bash
-git clone https://github.com/LambdaTest/junit-selenium-sample
-cd junit-selenium-sample
+git clone [https://github.com/LambdaTest/junit-selenium-sample](https://github.com/ritamganguli/junit_xray_integration)
+cd junit_xray_integration
 ```
 
 You may also want to run the command below to check for outdated dependencies.
